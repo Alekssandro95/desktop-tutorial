@@ -1,0 +1,231 @@
+    *::after,
+    *::before{
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url('../images/header-bg.jpg');
+}
+
+.text__box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.zero__block {
+    margin-top: 58px;
+}
+
+/* ----- Стилі тексту ----- */
+
+.even__text {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #000000;
+    padding-top: 113px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.society__text {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.burning__paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+    text-transform: none;
+    padding-right: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.drives__text {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+/* -------------------------- */
+
+.block__img {
+    margin-top: 113px;
+}
+
+.img__list {
+    display: flex;
+}
+
+.img__item {
+    margin-right: 30px;
+    list-style: none;
+}
+
+.little__box {
+    margin-top: 114px;
+}
+
+.little__list {
+    display: flex;
+    list-style: none;
+}
+
+.little__item {
+    padding-left: 55px;
+}
+
+.little__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ------ Стилі логотипу і навігації ------------ */
+
+.logo__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__online {
+    display: flex;
+    padding-top: 70px;
+}
+
+.logo__img {
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+    max-width: 350px;
+    height: auto;
+}
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__item {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.navigation__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 70px;
+    display: flex;
+}
+
+.navigation__link:hover {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ff0066;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+/* ----------------------------------------------- */
+
+/* ------------------- Стилі банера ------------- */
+.header__container {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.event__text {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    padding-top: 213px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.man__text {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 150px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+.tickets__text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 238px;
+    height: 57px;
+    padding: 18px 23px;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.tickets__text:hover {
+    color: #ff0066;
+    border: 2px solid #ff0066;
+    transform: all 0.4s;
+}
+
+.phone__number {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 69px;
+}
